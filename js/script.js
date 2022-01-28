@@ -1,3 +1,5 @@
+// Question 1
+
 const cats = [
     {
         name: "Blob",
@@ -11,4 +13,11 @@ const cats = [
         age: 21
     }
 ];
+var cat = {complain: function(){
+    console.log("Meow!")
+}}
+console.log(cat);
 
+// Question 2
+var heading = document.querySelector ("h3");
+heading.innerHTML = "Updated heading";
