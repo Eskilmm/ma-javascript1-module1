@@ -50,7 +50,7 @@ aiPapi(cats)
 
 //Question 8
 
-const catContainer = document.querySelector(".cat-container");
+var catContainer = document.querySelector(".cat-container");
 function createCats(cats){
 for(katt of cats){
     if(katt.age = undefined){
